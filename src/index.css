@@ -1,0 +1,11 @@
+
+html, body, :global(#root) {
+  height: 100%;
+  font-size: 14px;
+  color:rgb(134, 134, 134);
+  font-family: "Microsoft YaHei";
+}
+
+a,a:hover,a:focus{
+    color: #222121;
+}

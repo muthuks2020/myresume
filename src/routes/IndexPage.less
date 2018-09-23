@@ -1,0 +1,117 @@
+@leftBoxBgc : #e5e5e5;
+@leftBoxColor : rgb(34, 33, 33);
+._center{
+  text-align: center;
+}
+.wrapper{
+    
+}
+.leftBox{
+  padding: 0px 10px;
+  background-color: @leftBoxBgc;
+  color:@leftBoxColor;
+  .itemBox{
+    padding: 20px 0px 20px;
+  }
+  .title{
+    background-color: #108ee9;
+    line-height: 34px;
+    font-size: 18px;
+    color: #fff;
+    padding-left: 10px;
+    box-shadow: 3px 1px 2px #888888;
+    margin-bottom: 40px;
+    position: relative;
+    .triangle{
+        position: absolute;
+        top: 34px;
+        left: 50px;
+        width: 0px;
+        height: 0px;
+        border-top: 15px solid #108ee9;
+        border-left: 15px solid @leftBoxBgc ;
+        border-bottom: 15px solid @leftBoxBgc ;
+        border-right: 15px solid @leftBoxBgc ;
+    }
+  }
+  .content{
+    padding: 0px 15px;
+    .item{
+      font-size: 14px;
+      line-height: 34px;
+      span{
+        padding-left: 10px;
+      }
+      
+    }
+    
+  }
+  .interest{
+    .interestIconBox{
+      font-size: 28px;
+      padding: 10px;
+      width: 64px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin: 0 auto;
+      cursor: pointer;
+      &:hover{
+        box-shadow: 2px 2px 2px #ccc;
+        color:#108ee9; 
+      }
+      transition: all 0.5s;
+    }
+    .interestText{
+      font-size: 14px;
+      padding: 5px 0px;
+    }
+  }
+}
+.rightBox{
+  padding: 0px 10px;
+  .motto{
+    padding: 10px 0px;
+    .name{
+      font-size: 30rem / 16;
+      color: #444;
+      padding: 0px 15px 0px 0px;
+    }
+    font-size: 18rem/16;
+    color: #868686;
+  }
+.itemBox{
+  position: relative;
+  margin: 30px 0px 0px;
+  .titleBox{
+    height: 30px;
+    font-weight: bold;
+    font-size: 18rem/16;
+    color: #454545;
+    .title{
+      padding: 0px 12px 0px 0px;
+      position: absolute;
+      background: #fff;
+      top: -12px;
+      left: 0px;
+    }
+    .line{
+      background: #108ee9;
+      height: 3px;
+    }
+    
+  }
+  .content{
+    color: #868686;
+    padding: 10px 0px 0px;
+    .emph{
+      color: #2b2b2b;
+      font-weight: 700;
+    }
+  }
+  .detailsBox{
+    height: 142px;
+    overflow: hidden;
+  }
+}
+}
